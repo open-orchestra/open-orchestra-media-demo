@@ -1,0 +1,60 @@
+---
+user_root: vagrant
+
+path_front: /var/www/front-openorchestra
+
+hosts_localhost: 127.0.0.1 localhost openorchestra
+
+hosts_site: 127.0.1.1 admin.openorchestra.dev openorchestra.test front.openorchestra.dev demo.openorchestra.dev
+
+apache_main_ports:
+  - 80
+
+apache_conf:
+  open-orchestra.conf:
+    port: 80
+    serverName: admin.openorchestra.dev
+    docRoot: /var/www/openorchestra/web
+    errorLog: admin.openorchestraError.log
+    accessLog: admin.openorchestraAccess.log
+  front-orchestra.conf:
+    port: 80
+    serverName: front.openorchestra.dev
+    docRoot: /var/www/front-openorchestra/web
+    errorLog: front.openorchestraError.log
+    accessLog: front.openorchestraAccess.log
+    siteId: 1
+  demo-orchestra.conf:
+    port: 80
+    serverName: demo.openorchestra.dev
+    docRoot: /var/www/front-openorchestra/web
+    errorLog: demo.openorchestraError.log
+    accessLog: demo.openorchestraAccess.log
+    siteId: 2
+  tools.conf:
+    port: 80
+    serverName: clearvarnish.dev
+    docRoot: /var/www/openorchestra/tools
+    errorLog: toolsError.log
+    accessLog: toolsAccess.log
+  open-orchestra-test.conf:
+    port: 80
+    serverName: openorchestra.test
+    docRoot: /var/www/openorchestra/web
+    errorLog: openorchestra-testError.log
+    accessLog: openorchestra-testAccess.log
+
+varnish_listen_port: 6081
+
+backend_conf:
+  - { name: openorchestra, port: 80, host: admin.openorchestra.dev, admin: true }
+  - { name: frontopenorchestra, port: 80, host: front.openorchestra.dev }
+  - { name: demoopenorchestra, port: 80, host: demo.openorchestra.dev }
+  - { name: openorchestratest, port: 80, host: openorchestra.test }
+
+selenium_current_directory: /home/vagrant
+
+mail_to: cron@open-orchestra.com
+
+sudoers:
+  - vagrant

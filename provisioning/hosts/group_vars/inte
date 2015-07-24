@@ -1,0 +1,63 @@
+---
+user_root: root
+
+path_front: /var/www/front-open-orchestra/current
+
+hosts_localhost: 127.0.0.1 localhost openorchestra
+
+hosts_site: 127.0.1.1 admin.openorchestra.inte front.openorchestra.inte demo.openorchestra.inte openorchestra.test
+
+apache_main_ports:
+  - 8000
+
+apache_conf:
+  inte-backoffice-openorchestra.conf:
+    port: 8000
+    serverName: 10.0.1.246
+    docRoot: /var/www/backoffice-open-orchestra/current/web
+    errorLog: openorchestra_backoffice_error.log
+    accessLog: openorchestra_backoffice_access.log
+  inte-backoffice-admin-openorchestra.conf:
+    port: 8000
+    serverName: admin.openorchestra.inte
+    docRoot: /var/www/backoffice-open-orchestra/current/web
+    errorLog: openorchestra_backoffice_error.log
+    accessLog: openorchestra_backoffice_access.log
+  demo-orchestra.conf:
+    port: 8000
+    serverName: demo.openorchestra.inte
+    docRoot: /var/www/front-open-orchestra/current/web
+    errorLog: demo-openorchestraError.log
+    accessLog: demo-openorchestraAccess.log
+    siteId: 2
+  front-orchestra.conf:
+    port: 8000
+    serverName: front.openorchestra.inte
+    docRoot: /var/www/front-open-orchestra/current/web
+    errorLog: front-openorchestraError.log
+    accessLog: front-openorchestraAccess.log
+    siteId: 1
+  open-orchestra-test.conf:
+    port: 8000
+    serverName: openorchestra.test
+    docRoot: /var/www/backoffice-open-orchestra/current/web
+    errorLog: openorchestra_backoffice_test_error.log
+    accessLog: openorchestra_backoffice_test_access.log
+
+varnish_listen_port: 80
+
+backend_conf:
+  - { name: openorchestra, port: 8000, host: admin.openorchestra.inte, admin: true }
+  - { name: frontopenorchestra, port: 8000, host: front.openorchestra.inte }
+  - { name: demoopenorchestra, port: 8000, host: demo.openorchestra.inte }
+  - { name: openorchestratest, port: 8000, host: openorchestra.test }
+
+selenium_current_directory: /home/provision
+
+mail_to: cron@open-orchestra.com
+
+sudoers:
+  - provision
+  - open_orchestra_front_inte
+  - open_orchestra_backoffice_inte
+  - open_orchestra_com_front_inte
