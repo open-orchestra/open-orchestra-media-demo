@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca"
+                "reference": "ac3bc1e14fcd429c823fb98b634be1e8e0142eb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/8c434000f420ade76a07c64cbe08ca47e5c101ca",
-                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/ac3bc1e14fcd429c823fb98b634be1e8e0142eb0",
+                "reference": "ac3bc1e14fcd429c823fb98b634be1e8e0142eb0",
                 "shasum": ""
             },
             "require": {
@@ -182,7 +182,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-08-31 12:36:41"
+            "time": "2015-09-10 14:00:46"
         },
         {
             "name": "doctrine/collections",
@@ -1268,12 +1268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "51a7aa2ce5c5cb6d097a93fd0c25e021620460a2"
+                "reference": "4b8b37648dc51ec23dc16513f44f4a9ce0bd30da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/51a7aa2ce5c5cb6d097a93fd0c25e021620460a2",
-                "reference": "51a7aa2ce5c5cb6d097a93fd0c25e021620460a2",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/4b8b37648dc51ec23dc16513f44f4a9ce0bd30da",
+                "reference": "4b8b37648dc51ec23dc16513f44f4a9ce0bd30da",
                 "shasum": ""
             },
             "require": {
@@ -1294,7 +1294,8 @@
                     "OpenOrchestra\\Mapping": "",
                     "OpenOrchestra\\Pagination": "",
                     "OpenOrchestra\\MongoTrait": "",
-                    "OpenOrchestra\\Repository": ""
+                    "OpenOrchestra\\Repository": "",
+                    "OpenOrchestra\\MongoBundle": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1308,7 +1309,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-09-08 11:37:57"
+            "time": "2015-09-10 15:55:38"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1317,12 +1318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "a63548fd93109224862ac6ea7fcfcb025c9e5b56"
+                "reference": "2fa53b705e49d1cbdb576d0b182d45eeb75019c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/a63548fd93109224862ac6ea7fcfcb025c9e5b56",
-                "reference": "a63548fd93109224862ac6ea7fcfcb025c9e5b56",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/2fa53b705e49d1cbdb576d0b182d45eeb75019c7",
+                "reference": "2fa53b705e49d1cbdb576d0b182d45eeb75019c7",
                 "shasum": ""
             },
             "require": {
@@ -1362,7 +1363,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-09-07 12:31:15"
+            "time": "2015-09-10 13:20:20"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1371,12 +1372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "d25180fd13b145bc05bed1729d9f7abb2b729daf"
+                "reference": "922e6c3e8fb84a64c2c2062e9b2930f4bc79c607"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/d25180fd13b145bc05bed1729d9f7abb2b729daf",
-                "reference": "d25180fd13b145bc05bed1729d9f7abb2b729daf",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/922e6c3e8fb84a64c2c2062e9b2930f4bc79c607",
+                "reference": "922e6c3e8fb84a64c2c2062e9b2930f4bc79c607",
                 "shasum": ""
             },
             "require": {
@@ -1409,7 +1410,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-09-07 09:05:25"
+            "time": "2015-09-10 15:39:33"
         },
         {
             "name": "psr/log",
@@ -2089,12 +2090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "7d21eb99840db0b0ce80221a260a299caa50e4f4"
+                "reference": "4ff8b3f002b91f56a36e63fa236148ce0a5c9a24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7d21eb99840db0b0ce80221a260a299caa50e4f4",
-                "reference": "7d21eb99840db0b0ce80221a260a299caa50e4f4",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4ff8b3f002b91f56a36e63fa236148ce0a5c9a24",
+                "reference": "4ff8b3f002b91f56a36e63fa236148ce0a5c9a24",
                 "shasum": ""
             },
             "require": {
@@ -2142,7 +2143,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-09-09 05:33:05"
+            "time": "2015-09-10 09:13:50"
         }
     ],
     "packages-dev": [
