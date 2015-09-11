@@ -1217,12 +1217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "db5250b67090acbe08cf7ba04cd5cc18b1aea0f4"
+                "reference": "c6caa09dd2d17365a4e57a864a072aa3d5136cee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/db5250b67090acbe08cf7ba04cd5cc18b1aea0f4",
-                "reference": "db5250b67090acbe08cf7ba04cd5cc18b1aea0f4",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/c6caa09dd2d17365a4e57a864a072aa3d5136cee",
+                "reference": "c6caa09dd2d17365a4e57a864a072aa3d5136cee",
                 "shasum": ""
             },
             "require": {
@@ -1259,7 +1259,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-09-04 13:04:29"
+            "time": "2015-09-11 07:44:09"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
