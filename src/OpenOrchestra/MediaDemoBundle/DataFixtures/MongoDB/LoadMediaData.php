@@ -81,14 +81,14 @@ class LoadMediaData extends AbstractFixture implements OrderedFixtureInterface, 
 
     /**
      * Generate a Media (image format)
-     * 
+     *
      * @param string $filename
      * @param string $name
      * @param string $mimeType
      * @param string $folderRefence
      * @param array  $keywordReferencesArray
      * @param array  $languagesArray
-     * 
+     *
      * @return Media
      */
     protected function generateImage($filename, $name, $mimeType, $folderRefence, $keywordReferencesArray, $languagesArray)
@@ -114,7 +114,7 @@ class LoadMediaData extends AbstractFixture implements OrderedFixtureInterface, 
 
     /**
      * Copy the file physically and generate the thumbnails
-     * 
+     *
      * @param MediaInterface $media
      */
     protected function copyFile(MediaInterface $media)
