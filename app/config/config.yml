@@ -29,6 +29,15 @@ framework:
         handler_id:  ~
     fragments:       ~
     http_method_override: true
+# Assetic Configuration
+assetic:
+    debug:          "%kernel.debug%"
+    use_controller: false
+    bundles:
+        - OpenOrchestraMediaBundle
+    #java: /usr/bin/java
+    filters:
+        cssrewrite: ~
 
 # Twig Configuration
 twig:
