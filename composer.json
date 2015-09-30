@@ -11,8 +11,8 @@
   "minimum-stability": "dev",
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
-    "open-orchestra/open-orchestra-base-bundle": "*",
-    "open-orchestra/open-orchestra-media-bundle": "*"
+    "open-orchestra/open-orchestra-base-bundle": "~1.0.0",
+    "open-orchestra/open-orchestra-media-bundle": "~1.0.0"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
