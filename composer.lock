@@ -1751,12 +1751,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "b02363e617db41de5b8ba9535509f417384e0dc4"
+                "reference": "00b6039704dae89ab90d22ed87d19dbf13de28cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/b02363e617db41de5b8ba9535509f417384e0dc4",
-                "reference": "b02363e617db41de5b8ba9535509f417384e0dc4",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/00b6039704dae89ab90d22ed87d19dbf13de28cf",
+                "reference": "00b6039704dae89ab90d22ed87d19dbf13de28cf",
                 "shasum": ""
             },
             "require": {
@@ -1797,7 +1797,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-10-05 13:58:06"
+            "time": "2015-10-07 13:14:45"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1805,12 +1805,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "9a80e764a4f0de083ac602020d72a4d27a5977db"
+                "reference": "339e4bcc848a98f9772db1bb6c9db6dc5525ece1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/9a80e764a4f0de083ac602020d72a4d27a5977db",
-                "reference": "9a80e764a4f0de083ac602020d72a4d27a5977db",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/339e4bcc848a98f9772db1bb6c9db6dc5525ece1",
+                "reference": "339e4bcc848a98f9772db1bb6c9db6dc5525ece1",
                 "shasum": ""
             },
             "require": {
@@ -1843,7 +1843,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-10-05 13:19:18"
+            "time": "2015-10-07 12:40:56"
         },
         {
             "name": "psr/log",
@@ -3118,12 +3118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f"
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ef1ca6835468857944d5c3b48fa503d5554cff2f",
-                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
                 "shasum": ""
             },
             "require": {
@@ -3172,7 +3172,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-09-14 06:51:16"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
