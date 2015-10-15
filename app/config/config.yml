@@ -51,8 +51,7 @@ doctrine_mongodb:
             options: {}
     default_database: "%open_orchestra_cms.mongodb.database%"
     resolve_target_documents:
-            OpenOrchestra\ModelInterface\Model\TranslatedValueInterface: OpenOrchestra\MediaDemoBundle\Document\TranslatedValue
-            OpenOrchestra\ModelInterface\Model\EmbedKeywordInterface: OpenOrchestra\MediaDemoBundle\Document\EmbedKeyword
+            OpenOrchestra\ModelInterface\Model\TranslatedValueInterface: OpenOrchestra\ModelBundle\Document\TranslatedValue
     document_managers:
         default:
             auto_mapping: true
