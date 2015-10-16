@@ -1,4 +1,3 @@
-set :application, 'OpenOrchestraMedia'
 
 set :format, :pretty
 set :log_level, :info
