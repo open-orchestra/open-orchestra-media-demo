@@ -5,7 +5,6 @@
         "This file is @generated automatically"
     ],
     "hash": "4cbd4dbbb0b296287cba7fb10f6551b5",
-    "content-hash": "595a2d53b0b94d919c155380d76d2516",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1791,12 +1790,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "8209323d8cf8f35623fcdb2d688993e9e5883d29"
+                "reference": "f5c69ee4302f3c536e39710ee763438ffd7e3800"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/8209323d8cf8f35623fcdb2d688993e9e5883d29",
-                "reference": "8209323d8cf8f35623fcdb2d688993e9e5883d29",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f5c69ee4302f3c536e39710ee763438ffd7e3800",
+                "reference": "f5c69ee4302f3c536e39710ee763438ffd7e3800",
                 "shasum": ""
             },
             "require": {
@@ -1808,6 +1807,7 @@
                 "open-orchestra/open-orchestra-bbcode-bundle": "*",
                 "open-orchestra/open-orchestra-display-bundle": "*",
                 "open-orchestra/open-orchestra-model-interface": "*",
+                "open-orchestra/open-orchestra-mongo-libs": "*",
                 "stof/doctrine-extensions-bundle": "1.2.1"
             },
             "require-dev": {
@@ -1838,7 +1838,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-10-16 09:11:34"
+            "time": "2015-10-16 10:11:38"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1885,6 +1885,56 @@
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
             "time": "2015-10-15 12:47:50"
+        },
+        {
+            "name": "open-orchestra/open-orchestra-mongo-libs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
+                "reference": "cba1bb9eb7c0d8fff107ca2c5115a0693838aac3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/cba1bb9eb7c0d8fff107ca2c5115a0693838aac3",
+                "reference": "cba1bb9eb7c0d8fff107ca2c5115a0693838aac3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/mongodb-odm": "1.0.2",
+                "doctrine/mongodb-odm-bundle": "3.0.1",
+                "jms/metadata": "~1.1",
+                "open-orchestra/open-orchestra-libs": "*",
+                "solution/mongo-odm-aggregation-bundle": "*",
+                "symfony/http-foundation": "*"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.1.0",
+                "phpunit/phpunit": "4.7.2",
+                "psr/log": "1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenOrchestra\\Pagination\\": "Pagination/",
+                    "OpenOrchestra\\MongoTrait\\": "MongoTrait/",
+                    "OpenOrchestra\\Repository\\": "Repository/",
+                    "OpenOrchestra\\MongoBundle\\": "MongoBundle/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "OpenOrchestra community",
+                    "homepage": "https://github.com/open-orchestra/open-orchestra-libs/graphs/contributors"
+                }
+            ],
+            "description": "Some library to use the Open Orchestra project with mongo",
+            "time": "2015-10-15 13:44:59"
         },
         {
             "name": "psr/log",
@@ -2198,6 +2248,84 @@
                 "symfony"
             ],
             "time": "2015-06-30 09:08:50"
+        },
+        {
+            "name": "solution/mongo-odm-aggregation-bundle",
+            "version": "dev-master",
+            "target-dir": "Solution/MongoAggregationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f1nder/SolutionMongoAggregationBundle.git",
+                "reference": "1f2c02d166392e0443386aeb2471d311d1cef2e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f1nder/SolutionMongoAggregationBundle/zipball/1f2c02d166392e0443386aeb2471d311d1cef2e8",
+                "reference": "1f2c02d166392e0443386aeb2471d311d1cef2e8",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/mongodb-odm-bundle": "~3.0",
+                "php": ">=5.4.0",
+                "solution/pipeline-builder": "dev-master",
+                "symfony/symfony": "~2.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Solution\\MongoAggregationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aleksandr Moroz",
+                    "email": "netstroix@gmail.com",
+                    "homepage": "http://comingsoon.com"
+                }
+            ],
+            "description": "This Bundle integrates mongo aggregation queries into you Symfony2 project.",
+            "keywords": [
+                "aggregation",
+                "mongo",
+                "pipeline",
+                "query"
+            ],
+            "time": "2015-09-30 17:03:45"
+        },
+        {
+            "name": "solution/pipeline-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f1nder/SolutionPipelineBuilder.git",
+                "reference": "aca3cdfb2262fb3ceea82310b903c908c4c9b983"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f1nder/SolutionPipelineBuilder/zipball/aca3cdfb2262fb3ceea82310b903c908c4c9b983",
+                "reference": "aca3cdfb2262fb3ceea82310b903c908c4c9b983",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Aleksandr Moroz",
+                    "email": "netstroix@gmail.com",
+                    "homepage": "http://comingsoon.com"
+                }
+            ],
+            "description": "Build pipeline for Mongo Aggregation Query",
+            "time": "2014-04-09 13:17:40"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
@@ -2944,56 +3072,6 @@
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
             "time": "2015-10-15 15:37:44"
-        },
-        {
-            "name": "open-orchestra/open-orchestra-mongo-libs",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "cba1bb9eb7c0d8fff107ca2c5115a0693838aac3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/cba1bb9eb7c0d8fff107ca2c5115a0693838aac3",
-                "reference": "cba1bb9eb7c0d8fff107ca2c5115a0693838aac3",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/mongodb-odm": "1.0.2",
-                "doctrine/mongodb-odm-bundle": "3.0.1",
-                "jms/metadata": "~1.1",
-                "open-orchestra/open-orchestra-libs": "*",
-                "solution/mongo-odm-aggregation-bundle": "*",
-                "symfony/http-foundation": "*"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.7.2",
-                "psr/log": "1.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "OpenOrchestra\\Pagination\\": "Pagination/",
-                    "OpenOrchestra\\MongoTrait\\": "MongoTrait/",
-                    "OpenOrchestra\\Repository\\": "Repository/",
-                    "OpenOrchestra\\MongoBundle\\": "MongoBundle/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "OpenOrchestra community",
-                    "homepage": "https://github.com/open-orchestra/open-orchestra-libs/graphs/contributors"
-                }
-            ],
-            "description": "Some library to use the Open Orchestra project with mongo",
-            "time": "2015-10-15 13:44:59"
         },
         {
             "name": "phake/phake",
@@ -4029,84 +4107,6 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2015-06-21 13:59:46"
-        },
-        {
-            "name": "solution/mongo-odm-aggregation-bundle",
-            "version": "dev-master",
-            "target-dir": "Solution/MongoAggregationBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/f1nder/SolutionMongoAggregationBundle.git",
-                "reference": "1f2c02d166392e0443386aeb2471d311d1cef2e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/f1nder/SolutionMongoAggregationBundle/zipball/1f2c02d166392e0443386aeb2471d311d1cef2e8",
-                "reference": "1f2c02d166392e0443386aeb2471d311d1cef2e8",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/mongodb-odm-bundle": "~3.0",
-                "php": ">=5.4.0",
-                "solution/pipeline-builder": "dev-master",
-                "symfony/symfony": "~2.3"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Solution\\MongoAggregationBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aleksandr Moroz",
-                    "email": "netstroix@gmail.com",
-                    "homepage": "http://comingsoon.com"
-                }
-            ],
-            "description": "This Bundle integrates mongo aggregation queries into you Symfony2 project.",
-            "keywords": [
-                "aggregation",
-                "mongo",
-                "pipeline",
-                "query"
-            ],
-            "time": "2015-09-30 17:03:45"
-        },
-        {
-            "name": "solution/pipeline-builder",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/f1nder/SolutionPipelineBuilder.git",
-                "reference": "aca3cdfb2262fb3ceea82310b903c908c4c9b983"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/f1nder/SolutionPipelineBuilder/zipball/aca3cdfb2262fb3ceea82310b903c908c4c9b983",
-                "reference": "aca3cdfb2262fb3ceea82310b903c908c4c9b983",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Aleksandr Moroz",
-                    "email": "netstroix@gmail.com",
-                    "homepage": "http://comingsoon.com"
-                }
-            ],
-            "description": "Build pipeline for Mongo Aggregation Query",
-            "time": "2014-04-09 13:17:40"
         }
     ],
     "aliases": [],
