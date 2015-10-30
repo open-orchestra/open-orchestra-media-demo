@@ -117,16 +117,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.2",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca"
+                "reference": "eb8a73619af4f1c8711e2ce482f5de3643258a1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/8c434000f420ade76a07c64cbe08ca47e5c101ca",
-                "reference": "8c434000f420ade76a07c64cbe08ca47e5c101ca",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/eb8a73619af4f1c8711e2ce482f5de3643258a1f",
+                "reference": "eb8a73619af4f1c8711e2ce482f5de3643258a1f",
                 "shasum": ""
             },
             "require": {
@@ -147,8 +147,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Cache\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -183,7 +183,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-08-31 12:36:41"
+            "time": "2015-10-28 11:27:45"
         },
         {
             "name": "doctrine/collections",
@@ -1596,7 +1596,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
@@ -1648,7 +1648,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
@@ -1697,17 +1697,17 @@
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "187b2aa4346967cfbd423c16b0d7387bd156c5c6"
+                "reference": "f7fd7be5e06de69ff4cff5d81096968a75fb5a41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/187b2aa4346967cfbd423c16b0d7387bd156c5c6",
-                "reference": "187b2aa4346967cfbd423c16b0d7387bd156c5c6",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/f7fd7be5e06de69ff4cff5d81096968a75fb5a41",
+                "reference": "f7fd7be5e06de69ff4cff5d81096968a75fb5a41",
                 "shasum": ""
             },
             "require": {
@@ -1744,21 +1744,21 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-09-22 15:25:58"
+            "time": "2015-10-22 14:29:02"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "9b94941a56a963282ddb3b005ddee46eca6a9f84"
+                "reference": "7bc407c7a18a754917098190da9829e32616c762"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/9b94941a56a963282ddb3b005ddee46eca6a9f84",
-                "reference": "9b94941a56a963282ddb3b005ddee46eca6a9f84",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/7bc407c7a18a754917098190da9829e32616c762",
+                "reference": "7bc407c7a18a754917098190da9829e32616c762",
                 "shasum": ""
             },
             "require": {
@@ -1799,21 +1799,21 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-09-30 14:39:52"
+            "time": "2015-10-09 12:29:53"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "570fbeed926e6dd1f9d6705b9f75e906123a415c"
+                "reference": "03047d6dae83239af30f373dbd97906bdbf57451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/570fbeed926e6dd1f9d6705b9f75e906123a415c",
-                "reference": "570fbeed926e6dd1f9d6705b9f75e906123a415c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/03047d6dae83239af30f373dbd97906bdbf57451",
+                "reference": "03047d6dae83239af30f373dbd97906bdbf57451",
                 "shasum": ""
             },
             "require": {
@@ -1846,7 +1846,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-09-30 14:39:53"
+            "time": "2015-10-12 12:49:41"
         },
         {
             "name": "psr/log",
