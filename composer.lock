@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4cbd4dbbb0b296287cba7fb10f6551b5",
-    "content-hash": "595a2d53b0b94d919c155380d76d2516",
+    "hash": "f348dc38a64a3c81bc5675a29636bf3b",
+    "content-hash": "c05aa09a157f816d854b6c5c971cd1d6",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1842,6 +1842,57 @@
             "time": "2015-11-18 15:06:51"
         },
         {
+            "name": "open-orchestra/open-orchestra-model-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
+                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/eb832fa710e5136a5ca2f1aa4797f171f52c7008",
+                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/data-fixtures": "1.1.1",
+                "doctrine/mongodb-odm": "1.0.2",
+                "doctrine/mongodb-odm-bundle": "3.0.1",
+                "open-orchestra/open-orchestra-model-interface": "*",
+                "open-orchestra/open-orchestra-mongo-libs": "*",
+                "solution/mongo-odm-aggregation-bundle": "*",
+                "stof/doctrine-extensions-bundle": "1.2.1"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "jmikola/geojson": "1.0.1",
+                "open-orchestra/open-orchestra-base-bundle": "dev-master",
+                "phake/phake": "2.1.0",
+                "phpunit/phpunit": "4.7.2",
+                "psr/log": "1.0.0",
+                "symfony/validator": "2.7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenOrchestra\\ModelBundle\\": "ModelBundle/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "OpenOrchestra community",
+                    "homepage": "https://github.com/open-orchestra/open-orchestra-model-bundle/graphs/contributors"
+                }
+            ],
+            "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
+            "time": "2015-11-18 14:40:59"
+        },
+        {
             "name": "open-orchestra/open-orchestra-model-interface",
             "version": "dev-master",
             "source": {
@@ -3020,57 +3071,6 @@
                 "xml"
             ],
             "time": "2014-03-18 08:39:00"
-        },
-        {
-            "name": "open-orchestra/open-orchestra-model-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/eb832fa710e5136a5ca2f1aa4797f171f52c7008",
-                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/data-fixtures": "1.1.1",
-                "doctrine/mongodb-odm": "1.0.2",
-                "doctrine/mongodb-odm-bundle": "3.0.1",
-                "open-orchestra/open-orchestra-model-interface": "*",
-                "open-orchestra/open-orchestra-mongo-libs": "*",
-                "solution/mongo-odm-aggregation-bundle": "*",
-                "stof/doctrine-extensions-bundle": "1.2.1"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "jmikola/geojson": "1.0.1",
-                "open-orchestra/open-orchestra-base-bundle": "dev-master",
-                "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.7.2",
-                "psr/log": "1.0.0",
-                "symfony/validator": "2.7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "OpenOrchestra\\ModelBundle\\": "ModelBundle/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "OpenOrchestra community",
-                    "homepage": "https://github.com/open-orchestra/open-orchestra-model-bundle/graphs/contributors"
-                }
-            ],
-            "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-11-18 14:40:59"
         },
         {
             "name": "phake/phake",
