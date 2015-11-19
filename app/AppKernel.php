@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new OpenOrchestra\MediaModelBundle\OpenOrchestraMediaModelBundle(),
             new OpenOrchestra\MongoBundle\OpenOrchestraMongoBundle(),
             new OpenOrchestra\MediaDemoBundle\OpenOrchestraMediaDemoBundle(),
+            new Solution\MongoAggregationBundle\SolutionMongoAggregationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
