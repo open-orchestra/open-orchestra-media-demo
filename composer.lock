@@ -1522,16 +1522,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "7d20351afc85aa23c5795309c9984a1e93d81c27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7d20351afc85aa23c5795309c9984a1e93d81c27",
+                "reference": "7d20351afc85aa23c5795309c9984a1e93d81c27",
                 "shasum": ""
             },
             "require": {
@@ -1560,6 +1560,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
@@ -1569,7 +1570,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "1.18.x-dev"
                 }
             },
             "autoload": {
@@ -1595,7 +1596,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2015-11-18 18:03:10"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
@@ -1746,12 +1747,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "b294a5a57ebdb46e4f1889b3aa8d2cdb3ceddc0e"
+                "reference": "f5ee0f2a7755b780af4df75f5244dee29768a5fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/b294a5a57ebdb46e4f1889b3aa8d2cdb3ceddc0e",
-                "reference": "b294a5a57ebdb46e4f1889b3aa8d2cdb3ceddc0e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/f5ee0f2a7755b780af4df75f5244dee29768a5fa",
+                "reference": "f5ee0f2a7755b780af4df75f5244dee29768a5fa",
                 "shasum": ""
             },
             "require": {
@@ -1783,7 +1784,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-10-19 12:40:50"
+            "time": "2015-11-19 10:23:10"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1847,12 +1848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008"
+                "reference": "bf56f87f810e42f32ab1d70394201ea7f2c57b35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/eb832fa710e5136a5ca2f1aa4797f171f52c7008",
-                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/bf56f87f810e42f32ab1d70394201ea7f2c57b35",
+                "reference": "bf56f87f810e42f32ab1d70394201ea7f2c57b35",
                 "shasum": ""
             },
             "require": {
@@ -1890,7 +1891,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-11-18 14:40:59"
+            "time": "2015-11-19 10:24:37"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1898,12 +1899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "04a5f3143f6c78713d118b11b225081830688a41"
+                "reference": "671b32164ed8daa7057111a3532386a8b7a8da75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/04a5f3143f6c78713d118b11b225081830688a41",
-                "reference": "04a5f3143f6c78713d118b11b225081830688a41",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/671b32164ed8daa7057111a3532386a8b7a8da75",
+                "reference": "671b32164ed8daa7057111a3532386a8b7a8da75",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1937,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-11-17 08:52:03"
+            "time": "2015-11-19 10:23:48"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -1944,12 +1945,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "3ade14864692a13b8b0fb6668b306c4fde8a7f2e"
+                "reference": "c4226c5c4b5a01c8a8d803e549bb8de0b95f54eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/3ade14864692a13b8b0fb6668b306c4fde8a7f2e",
-                "reference": "3ade14864692a13b8b0fb6668b306c4fde8a7f2e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/c4226c5c4b5a01c8a8d803e549bb8de0b95f54eb",
+                "reference": "c4226c5c4b5a01c8a8d803e549bb8de0b95f54eb",
                 "shasum": ""
             },
             "require": {
@@ -1986,7 +1987,7 @@
                 }
             ],
             "description": "Some library to use the Open Orchestra project with mongo",
-            "time": "2015-11-18 11:14:30"
+            "time": "2015-11-19 10:31:50"
         },
         {
             "name": "psr/log",
