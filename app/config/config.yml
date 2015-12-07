@@ -33,8 +33,6 @@ framework:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:
-        - OpenOrchestraMediaBundle
     #java: /usr/bin/java
     filters:
         cssrewrite: ~

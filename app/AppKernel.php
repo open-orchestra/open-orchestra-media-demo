@@ -19,7 +19,6 @@ class AppKernel extends Kernel
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
 
             new OpenOrchestra\BaseBundle\OpenOrchestraBaseBundle(),
-            new OpenOrchestra\MediaBundle\OpenOrchestraMediaBundle(),
             new OpenOrchestra\MediaFileBundle\OpenOrchestraMediaFileBundle(),
             new OpenOrchestra\MediaModelBundle\OpenOrchestraMediaModelBundle(),
             new OpenOrchestra\MongoBundle\OpenOrchestraMongoBundle(),
