@@ -1,4 +1,4 @@
 app:
-    resource: "@OpenOrchestraMediaBundle/Controller/"
-    type:     annotation
+    resource: "@OpenOrchestraMediaFileBundle/Controller"
+    type: annotation
     prefix: /media
