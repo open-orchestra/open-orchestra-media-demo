@@ -11,19 +11,11 @@ class AppKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
-            new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
 
-            new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
-            new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
-
-            new OpenOrchestra\BaseBundle\OpenOrchestraBaseBundle(),
             new OpenOrchestra\MediaFileBundle\OpenOrchestraMediaFileBundle(),
-            new OpenOrchestra\MediaModelBundle\OpenOrchestraMediaModelBundle(),
-            new OpenOrchestra\MongoBundle\OpenOrchestraMongoBundle(),
-            new OpenOrchestra\ModelBundle\OpenOrchestraModelBundle(),
-            new Solution\MongoAggregationBundle\SolutionMongoAggregationBundle(),
+            new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

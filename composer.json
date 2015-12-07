@@ -11,7 +11,7 @@
   "minimum-stability": "dev",
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
-    "open-orchestra/open-orchestra-model-bundle": "dev-master"
+    "open-orchestra/open-orchestra-media-file": "dev-master"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
