@@ -11,8 +11,13 @@
   "minimum-stability": "dev",
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
-    "open-orchestra/open-orchestra-media-bundle": "dev-master",
-    "open-orchestra/open-orchestra-model-bundle": "dev-master"
+    "symfony/framework-bundle": "2.7.6",
+    "twig/twig": "1.22.1",
+    "symfony/assetic-bundle" : "2.7.0",
+    "sensio/framework-extra-bundle" : "3.0.10",
+    "sensio/distribution-bundle" : "4.0.1",
+    "sensio/generator-bundle" : "2.5.3",
+    "open-orchestra/open-orchestra-media-file-bundle": "dev-master"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
