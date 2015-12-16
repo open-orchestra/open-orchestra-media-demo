@@ -11,3 +11,9 @@ framework:
 web_profiler:
     toolbar: false
     intercept_redirects: false
+
+knp_gaufrette:
+    adapters:
+        media_storage:
+            local:
+                directory: /tmp/uploaded-files
