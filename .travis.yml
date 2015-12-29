@@ -6,30 +6,18 @@ cache:
 
 sudo: false
 
-matrix:
-  include:
-    - env: PHP=5.4
-      php: 5.4
-      addons:
-        apt:
-          packages:
-            - libav-tools
-    - env: PHP=5.5
-      php: 5.5
-      addons:
-        apt:
-          packages:
-            - libav-tools
-    - env: PHP=5.6
-      php: 5.6
-      addons:
-        apt:
-          packages:
-            - libav-tools
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+
+addons:
+  apt:
+    packages:
+      -libav-tools
 
 before_install:
   - printf "\n" |pecl install imagick
-  - phpenv config-add .travis.php.ini
 
 install:
   - composer install
