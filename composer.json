@@ -16,6 +16,7 @@
     "symfony/assetic-bundle" : "2.7.0",
     "sensio/framework-extra-bundle" : "3.0.10",
     "doctrine/common":  "2.5.*",
+    "doctrine/cache": "1.5.*",
     "sensio/distribution-bundle" : "4.0.1",
     "sensio/generator-bundle" : "2.5.3",
     "open-orchestra/open-orchestra-media-file-bundle": "dev-master"
