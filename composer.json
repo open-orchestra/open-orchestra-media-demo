@@ -11,8 +11,8 @@
   "minimum-stability": "dev",
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
-    "symfony/framework-bundle": "2.7.6",
-    "twig/twig": "1.22.1",
+    "symfony/symfony": "2.8.1",
+    "twig/twig": " ~1.23",
     "symfony/assetic-bundle" : "2.7.0",
     "sensio/framework-extra-bundle" : "3.0.10",
     "doctrine/common":  "2.5.*",
