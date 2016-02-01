@@ -19,7 +19,7 @@
     "doctrine/cache": "1.5.*",
     "sensio/distribution-bundle" : "4.0.1",
     "sensio/generator-bundle" : "2.5.3",
-    "open-orchestra/open-orchestra-media-file-bundle": "dev-master"
+    "open-orchestra/open-orchestra-media-file-bundle": "*"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
