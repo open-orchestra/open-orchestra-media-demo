@@ -1519,16 +1519,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.1",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
-                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5f56ed5212dc509c8dc8caeba2715732abb32dbf",
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf",
                 "shasum": ""
             },
             "require": {
@@ -1543,13 +1543,13 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
                 "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
                 "phpunit/phpunit": "~4.5",
                 "phpunit/phpunit-mock-objects": "2.3.0",
                 "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
-                "swiftmailer/swiftmailer": "~5.3",
-                "videlalvaro/php-amqplib": "~2.4"
+                "swiftmailer/swiftmailer": "~5.3"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -1558,11 +1558,11 @@
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
@@ -1593,24 +1593,25 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-13 16:08:35"
+            "time": "2016-04-12 18:29:35"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "7bdd168304115f7db7d68c529daaca5e80a0e1db"
+                "reference": "58f7725313b204352d82b0cca5f2837fbbae5b00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/7bdd168304115f7db7d68c529daaca5e80a0e1db",
-                "reference": "7bdd168304115f7db7d68c529daaca5e80a0e1db",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/58f7725313b204352d82b0cca5f2837fbbae5b00",
+                "reference": "58f7725313b204352d82b0cca5f2837fbbae5b00",
                 "shasum": ""
             },
             "require": {
+                "doctrine/common": "2.5.*",
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "4.0.1",
                 "sensio/framework-extra-bundle": "3.0.10",
@@ -1618,7 +1619,7 @@
                 "snc/redis-bundle": "1.1.9",
                 "symfony/assetic-bundle": "2.7.0",
                 "symfony/monolog-bundle": "2.7.1",
-                "symfony/symfony": "2.7.4",
+                "symfony/symfony": "^2.7.4",
                 "twig/extensions": "1.3.0",
                 "twig/twig": "1.22.1"
             },
@@ -1645,11 +1646,11 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-09-21 15:30:12"
+            "time": "2016-03-10 16:50:45"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
@@ -1698,17 +1699,17 @@
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "f7fd7be5e06de69ff4cff5d81096968a75fb5a41"
+                "reference": "ebe5ee7df927e9d8f0dc117edfb7120e0aa83509"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/f7fd7be5e06de69ff4cff5d81096968a75fb5a41",
-                "reference": "f7fd7be5e06de69ff4cff5d81096968a75fb5a41",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/ebe5ee7df927e9d8f0dc117edfb7120e0aa83509",
+                "reference": "ebe5ee7df927e9d8f0dc117edfb7120e0aa83509",
                 "shasum": ""
             },
             "require": {
@@ -1717,6 +1718,8 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
+                "doctrine/cache": "1.5.*",
+                "doctrine/mongodb": "1.2.1",
                 "doctrine/mongodb-odm": "1.0.2",
                 "doctrine/mongodb-odm-bundle": "3.0.1",
                 "phake/phake": "2.1.0",
@@ -1745,25 +1748,27 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-10-22 14:29:02"
+            "time": "2015-12-28 10:46:45"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "7bc407c7a18a754917098190da9829e32616c762"
+                "reference": "032cba595501fe955d509329e80ac58d9c3a66f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/7bc407c7a18a754917098190da9829e32616c762",
-                "reference": "7bc407c7a18a754917098190da9829e32616c762",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/032cba595501fe955d509329e80ac58d9c3a66f3",
+                "reference": "032cba595501fe955d509329e80ac58d9c3a66f3",
                 "shasum": ""
             },
             "require": {
+                "doctrine/cache": "1.5.*",
                 "doctrine/data-fixtures": "1.1.1",
+                "doctrine/mongodb": "1.2.1",
                 "doctrine/mongodb-odm": "1.0.2",
                 "doctrine/mongodb-odm-bundle": "3.0.1",
                 "ext-imagick": "*",
@@ -1800,21 +1805,21 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-10-09 12:29:53"
+            "time": "2015-12-28 10:46:42"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "target-dir": "OpenOrchestra",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "03047d6dae83239af30f373dbd97906bdbf57451"
+                "reference": "8f6171a283d1dda4e449fa410b158d2320cf01a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/03047d6dae83239af30f373dbd97906bdbf57451",
-                "reference": "03047d6dae83239af30f373dbd97906bdbf57451",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/8f6171a283d1dda4e449fa410b158d2320cf01a4",
+                "reference": "8f6171a283d1dda4e449fa410b158d2320cf01a4",
                 "shasum": ""
             },
             "require": {
@@ -1847,7 +1852,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-10-12 12:49:41"
+            "time": "2016-02-10 09:05:28"
         },
         {
             "name": "psr/log",
@@ -2533,20 +2538,20 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.7.4",
+            "version": "v2.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "1fdf23fe28876844b887b0e1935c9adda43ee645"
+                "reference": "66b2e9662c44d478b69e48278aa54079a006eb42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/1fdf23fe28876844b887b0e1935c9adda43ee645",
-                "reference": "1fdf23fe28876844b887b0e1935c9adda43ee645",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/66b2e9662c44d478b69e48278aa54079a006eb42",
+                "reference": "66b2e9662c44d478b69e48278aa54079a006eb42",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.3",
+                "doctrine/common": "~2.4",
                 "php": ">=5.3.9",
                 "psr/log": "~1.0",
                 "twig/twig": "~1.20|~2.0"
@@ -2599,14 +2604,13 @@
             },
             "require-dev": {
                 "doctrine/data-fixtures": "1.0.*",
-                "doctrine/dbal": "~2.2",
+                "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.2",
-                "doctrine/orm": "~2.2,>=2.2.3",
+                "doctrine/orm": "~2.4,>=2.4.5",
                 "egulias/email-validator": "~1.2",
                 "ircmaxell/password-compat": "~1.0",
                 "monolog/monolog": "~1.11",
-                "ocramius/proxy-manager": "~0.4|~1.0",
-                "symfony/phpunit-bridge": "self.version"
+                "ocramius/proxy-manager": "~0.4|~1.0"
             },
             "type": "library",
             "extra": {
@@ -2651,7 +2655,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-09-08 14:26:39"
+            "time": "2015-10-27 19:07:24"
         },
         {
             "name": "twig/extensions",
