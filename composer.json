@@ -8,7 +8,6 @@
       "": "src/"
     }
   },
-  "minimum-stability": "dev",
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
     "symfony/symfony": "2.8.1",
@@ -19,7 +18,7 @@
     "doctrine/cache": "1.5.*",
     "sensio/distribution-bundle" : "4.0.1",
     "sensio/generator-bundle" : "2.5.3",
-    "open-orchestra/open-orchestra-media-file-bundle": "*"
+    "open-orchestra/open-orchestra-media-file-bundle": "~1.1.0"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
