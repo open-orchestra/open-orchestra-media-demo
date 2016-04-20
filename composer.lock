@@ -2161,7 +2161,7 @@
         },
         {
             "name": "solution/mongo-odm-aggregation-bundle",
-            "version": "dev-master",
+            "version": "v0.1",
             "target-dir": "Solution/MongoAggregationBundle",
             "source": {
                 "type": "git",
