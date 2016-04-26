@@ -1,6 +1,6 @@
 {
   "name": "open-orchestra/open-orchestra-media-demo",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "project",
   "description": "Example of OpenOrchestra external media domain implementation",
   "autoload": {
