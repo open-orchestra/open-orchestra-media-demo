@@ -10,7 +10,7 @@
   },
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
-    "symfony/symfony": "2.8.1",
+    "symfony/symfony": "~2.8.4",
     "twig/twig": " ~1.23",
     "symfony/assetic-bundle" : "2.7.0",
     "sensio/framework-extra-bundle" : "3.0.10",
