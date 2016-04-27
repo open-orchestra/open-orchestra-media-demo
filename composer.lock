@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "50e8cf492f556b63af0c6c953ff0cbb9",
-    "content-hash": "f2bcce63e65bc34752e4a40c9d97ac44",
+    "hash": "a71991307852ed656040342e81ec241e",
+    "content-hash": "df4f969686b4f44d3f401a03e37b0ea5",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -721,16 +721,16 @@
         },
         {
             "name": "open-orchestra/open-orchestra-media-file-bundle",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
-                "reference": "aea439427d9f3fa77f5b09c30965383b35740dfa"
+                "url": "git@github.com:open-orchestra/open-orchestra-media-file-bundle.git",
+                "reference": "ea2abb0803a10dc229d8dda0770bd76c331bfe63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/aea439427d9f3fa77f5b09c30965383b35740dfa",
-                "reference": "aea439427d9f3fa77f5b09c30965383b35740dfa",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/ea2abb0803a10dc229d8dda0770bd76c331bfe63",
+                "reference": "ea2abb0803a10dc229d8dda0770bd76c331bfe63",
                 "shasum": ""
             },
             "require": {
@@ -743,11 +743,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\MediaFileBundle\\": "MediaFileBundle/"
@@ -764,7 +759,7 @@
                 }
             ],
             "description": "This bundle provide the file management part for the media feature of OpenOrchestra",
-            "time": "2016-04-26 11:57:56"
+            "time": "2016-04-27 14:03:02"
         },
         {
             "name": "paragonie/random_compat",
@@ -3184,9 +3179,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "open-orchestra/open-orchestra-media-file-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
