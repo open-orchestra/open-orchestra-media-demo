@@ -5,7 +5,7 @@ path_front: /var/www/media-openorchestra/current
 
 hosts_localhost: 127.0.0.1 localhost openorchestra
 
-hosts_site: 127.0.1.1 media.openorchestra.inte
+hosts_site: 127.0.1.1 media.openorchestra.1-0.inte
 
 apache_main_ports:
   - 80
@@ -13,7 +13,7 @@ apache_main_ports:
 apache_conf:
   media-orchestra.conf:
     port: 80
-    serverName: media.openorchestra.inte
+    serverName: media.openorchestra..1-0.inte
     docRoot: /var/www/media-openorchestra/current/web
     errorLog: media.openorchestraError.log
     accessLog: media.openorchestraAccess.log
@@ -21,7 +21,7 @@ apache_conf:
 varnish_listen_port: 6081
 
 backend_conf:
-  - { name: mediaopenorchestra, port: 80, host: media.openorchestra.dev }
+  - { name: mediaopenorchestra, port: 80, host: media.openorchestra.1-0.inte }
 
 selenium_current_directory: /home/vagrant
 
