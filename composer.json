@@ -12,11 +12,12 @@
   "prefer-stable": true,
   "require": {
     "incenteev/composer-parameter-handler": "~2.0",
-    "open-orchestra/open-orchestra-base-bundle": "~1.0.0",
-    "open-orchestra/open-orchestra-media-bundle": "~1.0.0",
+    "open-orchestra/open-orchestra-base-bundle": "1.0.x-dev",
+    "open-orchestra/open-orchestra-media-bundle": "1.0.x-dev",
     "solution/mongo-odm-aggregation-bundle": "*",
+    "doctrine/mongodb": "1.2.*",
     "doctrine/cache": "1.5.*",
-    "doctrine/common": "2.5.1"
+    "doctrine/common": "2.5.*"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
