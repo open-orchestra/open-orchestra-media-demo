@@ -8,24 +8,27 @@
       "": "src/"
     }
   },
+
   "require": {
-    "incenteev/composer-parameter-handler": "~2.0",
-    "symfony/symfony": "~2.8.4",
-    "twig/twig": " ~1.23",
-    "symfony/assetic-bundle" : "2.7.0",
-    "sensio/framework-extra-bundle" : "3.0.10",
-    "doctrine/common":  "2.5.*",
-    "doctrine/cache": "1.5.*",
-    "sensio/distribution-bundle" : "4.0.1",
-    "sensio/generator-bundle" : "2.5.3",
+    "doctrine/cache": "~1.5.4",
+    "doctrine/common": "~2.5.3",
+    "incenteev/composer-parameter-handler": "~2.1.2",
+    "sensio/distribution-bundle": "~4.0.6",
+    "sensio/framework-extra-bundle": "~3.0.10",
+    "symfony/assetic-bundle": "~2.7.0",
+    "symfony/symfony": "~2.8.6",
+    "twig/twig": "~1.24.0",
     "open-orchestra/open-orchestra-media-file-bundle": "1.2.*@dev"
   },
+
   "require-dev": {
-    "scrutinizer/ocular": "1.1.1",
-    "jmikola/geojson": "~1.0",
-    "phpunit/phpunit" : "4.7.7",
-    "phake/phake": "2.1.0"
+    "phake/phake": "~2.1.0",
+    "phpunit/phpunit": "~4.8.0",
+
+    "scrutinizer/ocular": "~1.1.1",
+    "sensio/generator-bundle": "~2.5.3"
   },
+
   "scripts": {
     "post-install-cmd": [
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -42,9 +45,11 @@
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
     ]
   },
+
   "config": {
     "bin-dir": "bin"
   },
+
   "extra": {
     "symfony-app-dir": "app",
     "symfony-web-dir": "web",
