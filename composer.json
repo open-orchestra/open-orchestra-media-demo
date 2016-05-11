@@ -10,6 +10,7 @@
   },
 
   "require": {
+    "php": ">=5.5 <5.7",
     "doctrine/cache": "~1.5.4",
     "doctrine/common": "~2.5.3",
     "incenteev/composer-parameter-handler": "~2.1.2",
