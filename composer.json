@@ -16,6 +16,7 @@
     "incenteev/composer-parameter-handler": "~2.1.2",
     "sensio/distribution-bundle": "~4.0.6",
     "sensio/framework-extra-bundle": "~3.0.10",
+    "sensio/generator-bundle": "~2.5.3",
     "symfony/assetic-bundle": "~2.7.0",
     "symfony/symfony": "~2.8.6",
     "twig/twig": "~1.24.0",
@@ -24,9 +25,7 @@
 
   "require-dev": {
     "phake/phake": "~2.1.0",
-    "phpunit/phpunit": "~4.8.0",
-
-    "sensio/generator-bundle": "~2.5.3"
+    "phpunit/phpunit": "~4.8.0"
   },
 
   "scripts": {
