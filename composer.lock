@@ -725,12 +725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
-                "reference": "80bd3344a0b0e93c6ceca80ebeaec86b28110864"
+                "reference": "c9af720bc2428931ef9a8feba115d95e1ef5ec9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/80bd3344a0b0e93c6ceca80ebeaec86b28110864",
-                "reference": "80bd3344a0b0e93c6ceca80ebeaec86b28110864",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/c9af720bc2428931ef9a8feba115d95e1ef5ec9a",
+                "reference": "c9af720bc2428931ef9a8feba115d95e1ef5ec9a",
                 "shasum": ""
             },
             "require": {
@@ -764,7 +764,7 @@
                 }
             ],
             "description": "This bundle provide the file management part for the media feature of OpenOrchestra",
-            "time": "2016-05-11 15:28:27"
+            "time": "2016-06-21 15:20:53"
         },
         {
             "name": "paragonie/random_compat",
