@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "954a9edc000fc0b71eb48e793c3ed1c6",
-    "content-hash": "7cc02c6fb1fd32e0e1329fc683466e39",
+    "hash": "248d5e651613b1c5aa6d6830fbb08441",
+    "content-hash": "fcaf5cc2de09552213071a7302c03717",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -721,16 +721,16 @@
         },
         {
             "name": "open-orchestra/open-orchestra-media-file-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
-                "reference": "80bd3344a0b0e93c6ceca80ebeaec86b28110864"
+                "reference": "2e523844c48158eede2513fc6eedeb8ebd29803a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/80bd3344a0b0e93c6ceca80ebeaec86b28110864",
-                "reference": "80bd3344a0b0e93c6ceca80ebeaec86b28110864",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/2e523844c48158eede2513fc6eedeb8ebd29803a",
+                "reference": "2e523844c48158eede2513fc6eedeb8ebd29803a",
                 "shasum": ""
             },
             "require": {
@@ -743,11 +743,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\MediaFileBundle\\": "MediaFileBundle/"
@@ -764,7 +759,7 @@
                 }
             ],
             "description": "This bundle provide the file management part for the media feature of OpenOrchestra",
-            "time": "2016-05-11 15:28:27"
+            "time": "2016-06-21 14:01:23"
         },
         {
             "name": "paragonie/random_compat",
@@ -3388,9 +3383,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "open-orchestra/open-orchestra-media-file-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
