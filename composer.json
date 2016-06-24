@@ -2,6 +2,7 @@
   "name": "open-orchestra/open-orchestra-media-demo",
   "license": "Apache-2.0",
   "type": "project",
+  "version": "1.1.*@dev",
   "description": "Example of OpenOrchestra external media domain implementation",
   "autoload": {
     "psr-0": {
@@ -18,7 +19,7 @@
     "doctrine/cache": "1.5.*",
     "sensio/distribution-bundle" : "4.0.1",
     "sensio/generator-bundle" : "2.5.3",
-    "open-orchestra/open-orchestra-media-file-bundle": "1.1.*@dev"
+    "open-orchestra/open-orchestra-media-file-bundle": "self.version"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
