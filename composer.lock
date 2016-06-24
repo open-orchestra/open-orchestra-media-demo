@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3bf9ef366c34cd80749e0717afe634b7",
-    "content-hash": "10c225f4304f39d66a5fb4d39f57cc29",
+    "hash": "1abd2d35579e80362b1f74f51d528707",
+    "content-hash": "a11b8364a4c45986571a58df98fd2be7",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -725,12 +725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
-                "reference": "df538c5d7e6d00e915b630b9e5292d50cfa070fb"
+                "reference": "37f39aa0211a2c990e3983cce37582c0f9e9b90e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/df538c5d7e6d00e915b630b9e5292d50cfa070fb",
-                "reference": "df538c5d7e6d00e915b630b9e5292d50cfa070fb",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/37f39aa0211a2c990e3983cce37582c0f9e9b90e",
+                "reference": "37f39aa0211a2c990e3983cce37582c0f9e9b90e",
                 "shasum": ""
             },
             "require": {
@@ -739,8 +739,8 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
             "extra": {
@@ -764,7 +764,7 @@
                 }
             ],
             "description": "This bundle provide the file management part for the media feature of OpenOrchestra",
-            "time": "2016-06-20 08:32:27"
+            "time": "2016-06-23 16:27:33"
         },
         {
             "name": "paragonie/random_compat",
@@ -854,17 +854,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.6",
+            "version": "v4.0.7",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40"
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/181a47c527a04d2d03986a0b3e9c1b86eaacab40",
-                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d738952285a1a7d969f9338f735108c9f65bb7f2",
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2",
                 "shasum": ""
             },
             "require": {
@@ -910,7 +910,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-04-25 20:49:44"
+            "time": "2016-06-23 16:10:25"
         },
         {
             "name": "sensio/framework-extra-bundle",
