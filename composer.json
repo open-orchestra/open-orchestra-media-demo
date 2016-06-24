@@ -2,12 +2,8 @@
   "name": "open-orchestra/open-orchestra-media-demo",
   "license": "Apache-2.0",
   "type": "project",
+  "version": "dev-master",
   "description": "Example of OpenOrchestra external media domain implementation",
-  "autoload": {
-    "psr-0": {
-      "": "src/"
-    }
-  },
 
   "require": {
     "php": "~5.6.0",
@@ -20,7 +16,7 @@
     "symfony/assetic-bundle": "~2.7.0",
     "symfony/symfony": "~2.8.6",
     "twig/twig": "~1.24.0",
-    "open-orchestra/open-orchestra-media-file-bundle": "1.2.*@dev"
+    "open-orchestra/open-orchestra-media-file-bundle": "self.version"
   },
 
   "require-dev": {
