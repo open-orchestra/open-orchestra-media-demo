@@ -9,10 +9,10 @@ parameters:
 
 framework:
     #esi:             ~
-    #translator:      { fallbacks: ["%locale%"] }
-    secret:          "%secret%"
+    #translator:      { fallbacks: ['%locale%'] }
+    secret:          '%secret%'
     router:
-        resource: "%kernel.root_dir%/config/routing.yml"
+        resource: '%kernel.root_dir%/config/routing.yml'
         strict_requirements: ~
     form:            ~
     csrf_protection: ~
@@ -21,7 +21,7 @@ framework:
     templating:
         engines: ['twig']
         #assets_version: SomeVersionScheme
-    default_locale:  "%locale%"
+    default_locale:  '%locale%'
     trusted_hosts:   ~
     trusted_proxies: ~
     session:
@@ -31,7 +31,7 @@ framework:
     http_method_override: true
 # Assetic Configuration
 assetic:
-    debug:          "%kernel.debug%"
+    debug:          '%kernel.debug%'
     use_controller: false
     #java: /usr/bin/java
     filters:
@@ -39,14 +39,14 @@ assetic:
 
 # Twig Configuration
 twig:
-    debug:            "%kernel.debug%"
-    strict_variables: "%kernel.debug%"
+    debug:            '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
 
 knp_gaufrette:
     adapters:
         media_storage:
             local:
-                directory: %media.directory%
+                directory: '%media.directory%'
                 create: true
     filesystems:
         media_storage:
