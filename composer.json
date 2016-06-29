@@ -10,7 +10,7 @@
     "doctrine/cache": "~1.5.4",
     "doctrine/common": "~2.5.3",
     "incenteev/composer-parameter-handler": "~2.1.2",
-    "sensio/distribution-bundle": "~4.0.6",
+    "sensio/distribution-bundle": "~5.0.0",
     "sensio/framework-extra-bundle": "~3.0.10",
     "symfony/assetic-bundle": "~2.7.0",
     "symfony/symfony": "~2.8.6",
