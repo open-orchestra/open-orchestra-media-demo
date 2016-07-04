@@ -1759,12 +1759,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "54c2222dc354d5ae840161421bbf688662642aa5"
+                "reference": "7349460839f2a7a60caafef0834ff3796487a5bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/54c2222dc354d5ae840161421bbf688662642aa5",
-                "reference": "54c2222dc354d5ae840161421bbf688662642aa5",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/7349460839f2a7a60caafef0834ff3796487a5bf",
+                "reference": "7349460839f2a7a60caafef0834ff3796487a5bf",
                 "shasum": ""
             },
             "require": {
@@ -1774,6 +1774,7 @@
                 "knplabs/knp-gaufrette-bundle": "v0.1.7",
                 "open-orchestra/open-orchestra-display-bundle": "1.0.x-dev",
                 "open-orchestra/open-orchestra-model-interface": "1.0.x-dev",
+                "phpspec/prophecy": "1.6.0",
                 "stof/doctrine-extensions-bundle": "1.2.1"
             },
             "require-dev": {
@@ -1804,7 +1805,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2016-05-10 08:58:56"
+            "time": "2016-07-04 09:55:36"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
