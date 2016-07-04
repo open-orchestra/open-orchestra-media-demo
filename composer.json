@@ -17,7 +17,8 @@
     "solution/mongo-odm-aggregation-bundle": "*",
     "doctrine/mongodb": "1.2.*",
     "doctrine/cache": "1.5.*",
-    "doctrine/common": "2.5.*"
+    "doctrine/common": "2.5.*",
+    "phpspec/prophecy": "1.6.0"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
