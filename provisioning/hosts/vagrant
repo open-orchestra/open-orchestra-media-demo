@@ -1,6 +1,6 @@
 [vagrant]
-admin.openorchestra.1-2.dev
+admin.openorchestra.2-0.dev
 [webserver]
-admin.openorchestra.1-2.dev
+admin.openorchestra.2-0.dev
 [database]
-admin.openorchestra.1-2.dev
+admin.openorchestra.2-0.dev
