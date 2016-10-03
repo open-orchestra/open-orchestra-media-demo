@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "94b9926f2514ef38abbf64992086b010",
-    "content-hash": "098a66b1cb2fdbe45691702cbad75930",
+    "hash": "0b3f9b84cd8e22db1395f127eb2c2e5a",
+    "content-hash": "c26f1c47f4a5a516d740068cc3995c94",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -642,7 +642,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-media-file-bundle",
-            "version": "v1.2.0-beta",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
@@ -2330,16 +2330,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.2.7",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "546898a2c0c356ef2891b39dd7d07f5d82c8ed0a"
+                "reference": "7462c19bdb9814f6e6bdeb5cad3eb3ce72c6e0da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/546898a2c0c356ef2891b39dd7d07f5d82c8ed0a",
-                "reference": "546898a2c0c356ef2891b39dd7d07f5d82c8ed0a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/7462c19bdb9814f6e6bdeb5cad3eb3ce72c6e0da",
+                "reference": "7462c19bdb9814f6e6bdeb5cad3eb3ce72c6e0da",
                 "shasum": ""
             },
             "require": {
@@ -2385,7 +2385,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-09-06 16:07:45"
+            "time": "2016-09-27 03:17:40"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2954,7 +2954,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "open-orchestra/open-orchestra-media-file-bundle": 10
+        "open-orchestra/open-orchestra-media-file-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
