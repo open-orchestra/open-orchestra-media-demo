@@ -1,4 +1,4 @@
-server 'open_orchestra_media_inte_1-2', roles: %w{web app db env}
+server 'open_orchestra_media_inte_2-0', roles: %w{web app db env}
 set :repo_url, 'https://github.com/open-orchestra/open-orchestra-media-demo.git'
 set :deploy_to, '/home/wwwroot/openorchestra/media'
 set :branch, 'master'
