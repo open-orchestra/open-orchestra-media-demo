@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b3f9b84cd8e22db1395f127eb2c2e5a",
-    "content-hash": "c26f1c47f4a5a516d740068cc3995c94",
+    "hash": "f51af3844faaf5c8d49ba6d69808f0a6",
+    "content-hash": "a6afb5f7166a288fbada080de63c2632",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -642,7 +642,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-media-file-bundle",
-            "version": "1.2.x-dev",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
@@ -2954,9 +2954,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "open-orchestra/open-orchestra-media-file-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
