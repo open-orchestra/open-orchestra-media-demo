@@ -10,4 +10,4 @@ parameters:
     encryption_key: ThisKeyIsNotSecret
 
     media.directory: /var/uploaded-files
-    media_domain: media.openorchestra.2-0.dev
+    open_orchestra_media.media_domain: media.openorchestra.2-0.dev
